@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header  */
+nav img {
+    width: 82px;
+    height: 58px;
+    object-fit: cover;
+}
+/* main banner */
+.hero{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/bann.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.top-1 {
+    margin-top: 100px;
+}
+
+/* collage section  */
+
+.collage h2{
+font-weight: bold;
+}
+
+/* collage section 2 */
+.collage2 .img img{
+    width: 100%;
+}
+
+.collage2 h2{
+    font-weight: bold;
+}
+
+
+/* about bolming  */
+.about-bol img{
+
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* quiz section  */
+.quiz-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* footer section  */
+
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .quick-links ul li {
+    margin-bottom: 10px;
+  }
+
+  .quick-links ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+  }
+
+  .quick-links ul li a:hover {
+    color: #1abc9c;
+  }
+
+  
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 0;
+  }
+
+  footer .social-icons a {
+    color: #ecf0f1;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+
+  footer .social-icons a:hover {
+    color: #1abc9c;
+  }
+
+  footer .container {
+    max-width: 1200px;
+  }
+
+  footer img{
+        width: 82px;
+        height: 58px;
+        object-fit: cover;
+        margin-bottom: 20px;
+  }
+
+  /* product page  */
+  .product-img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .product-details {
+    margin-top: 30px;
+  }
+  .product-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  .product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1abc9c;
+  }
+  .add-to-cart-btn {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .add-to-cart-btn:hover {
+    background-color: #16a085;
+  }
+  .related-products .col-md-4 {
+    margin-bottom: 30px;
+  }
+  .related-product-img {
+    max-height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  /* about pages  */
+  body {
+    background-color: #f8f9fa;
+  }
+  .navbar {
+    background-color: #007bff;
+  }
+  .hero-section {
+    background: url("images/bann.webp") no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+    color: white;
+    text-align: center;
+  }
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  .text-center p {
+    color: #555;
+  }
+  .sourcing-practices h5 {
+    color: #007bff;
+    font-weight: bold;
+  }
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    padding: 5px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  footer a {
+    color: #d1d1d1;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #fff;
+  }
+  .social-icons i {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .quick-links ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .quick-links ul li a {
+    display: inline-block;
+    padding: 3px 0;
+  }
+
+  /* contact us pages  */
+
+  /* Navigation Menu Hover Effect */
+/* Gradient Background */
+.bg-gradient {
+    background: linear-gradient(135deg, #6a89cc, #38ada9);
+    color: white;
+}
+
+/* Navbar Link Hover Effect */
+.navbar-nav .nav-link {
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8c291;
+}
+
+/* Contact Form Styling */
+.contact-section {
+    background: linear-gradient(135deg, #38ada9, #b8e994);
+    color: #333;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(135deg, #ff6b6b, #f7d794);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(135deg, #f7d794, #ff6b6b);
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #2d3436;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .social-links a {
+    color: #f7d794;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer .social-links a:hover {
+    color: #ff6b6b;
+}
+
+/* Unordered List of Band Members */
+.band-members {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: auto;
+}
+
+.band-members li {
+    background: #38ada9;
+    padding: 10px;
+    border: 2px solid #fff;
+    color: white;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+}
+
+.band-members li:hover {
+    background-color: #6a89cc;
+    transform: scale(1.05);
+}
+
+/* Date and Time Styling */
+#currentDateTime {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+}
+ #clock{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+ }

@@ -1,0 +1,28 @@
+ /* Media Queries for responsiveness */
+ @media (max-width: 768px) {
+    footer .social-icons a {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    footer .social-icons a {
+      font-size: 18px;
+    }
+  }
+
+
+
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    footer .social-icons a {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    footer .social-icons a {
+      font-size: 18px;
+    }
+  }
+

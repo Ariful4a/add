@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar with Toggle</title>
+  <!-- bootstrap link   -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- fontawesome link   -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css link  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- .responsive css  -->
+   <link rel="stylesheet" href="responsive.css">
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <!-- <p id="clock" class="p-0 mt-2 fs-6 ps-3">12:00:00 PM</p> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- form  -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with Alert</title>
+    <!-- Bootstrap CSS for Styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Contact Us</h2>
+    <!-- Contact Form -->
+    <form id="contactForm" onsubmit="return showAlert()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- JavaScript to show alert on form submit -->
+
+   <!-- Footer Section -->
+ <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="row">
+  
+        <!-- About Us Section -->
+        <div class="col-md-4 mb-3">
+          <img src="images/logo.png" alt="">
+          <p>Blooming Oasis is your go-to plant shop, offering a curated selection of plants for every need. From indoor greenery to garden essentials, we help you bring nature into your home!</p>
+        </div>
+  
+        <!-- Quick Links Section -->
+        <div class="col-md-4 mb-3 ps-5 quick-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+  
+        <!-- Social Media Section -->
+        <div class="col-md-4 mb-3 social-icons">
+          <h5>Follow Us</h5>
+          <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+  
+      </div>
+  
+      <!-- Copyright Section -->
+      <div class="row mt-3">
+        <div class="col text-center">
+          <p>&copy; 2024 Blooming Oasis. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
